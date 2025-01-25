@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Documents/jptr_practice/MLOps/assignments/assignment/mlops-assignment/mlruns/687924928482361817/bd59045061db4230a83dd25936bded0d/artifacts
+end_time: 1737816078443
+entry_point_name: ''
+experiment_id: '687924928482361817'
+lifecycle_stage: active
+run_id: bd59045061db4230a83dd25936bded0d
+run_name: zealous-mouse-549
+run_uuid: bd59045061db4230a83dd25936bded0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737816049312
+status: 3
+tags: []
+user_id: Satish
