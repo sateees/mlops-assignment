@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Documents/jptr_practice/MLOps/assignments/assignment/mlops-assignment/mlruns/687924928482361817/a7164c81f8994e6282d390e992dc2a6f/artifacts
+end_time: 1737815373346
+entry_point_name: ''
+experiment_id: '687924928482361817'
+lifecycle_stage: active
+run_id: a7164c81f8994e6282d390e992dc2a6f
+run_name: vaunted-roo-880
+run_uuid: a7164c81f8994e6282d390e992dc2a6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737815341655
+status: 3
+tags: []
+user_id: Satish
