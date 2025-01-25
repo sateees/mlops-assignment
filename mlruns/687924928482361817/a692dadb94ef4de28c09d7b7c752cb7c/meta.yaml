@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Documents/jptr_practice/MLOps/assignments/assignment/mlops-assignment/mlruns/687924928482361817/a692dadb94ef4de28c09d7b7c752cb7c/artifacts
+end_time: 1737825637962
+entry_point_name: ''
+experiment_id: '687924928482361817'
+lifecycle_stage: active
+run_id: a692dadb94ef4de28c09d7b7c752cb7c
+run_name: clean-bass-572
+run_uuid: a692dadb94ef4de28c09d7b7c752cb7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737825607459
+status: 3
+tags: []
+user_id: Satish

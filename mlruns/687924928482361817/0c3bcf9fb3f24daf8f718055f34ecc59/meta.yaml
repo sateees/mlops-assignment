@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Documents/jptr_practice/MLOps/assignments/assignment/mlops-assignment/mlruns/687924928482361817/0c3bcf9fb3f24daf8f718055f34ecc59/artifacts
+end_time: 1737824676908
+entry_point_name: ''
+experiment_id: '687924928482361817'
+lifecycle_stage: active
+run_id: 0c3bcf9fb3f24daf8f718055f34ecc59
+run_name: likeable-hog-504
+run_uuid: 0c3bcf9fb3f24daf8f718055f34ecc59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737824650141
+status: 3
+tags: []
+user_id: Satish

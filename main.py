@@ -97,7 +97,7 @@ def train_with_mlflow():
         mlflow.sklearn.log_model(trainer.pipeline, "model")
                 
         # Register the model
-        model_name = "insurance_model" 
+        model_name = config['model']['name'] 
         model_uri = f"runs:/{run.info.run_id}/model"
         mlflow.register_model(model_uri, model_name)
 

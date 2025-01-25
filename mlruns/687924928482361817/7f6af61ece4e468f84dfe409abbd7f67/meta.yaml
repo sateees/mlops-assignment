@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Documents/jptr_practice/MLOps/assignments/assignment/mlops-assignment/mlruns/687924928482361817/7f6af61ece4e468f84dfe409abbd7f67/artifacts
+end_time: 1737825101254
+entry_point_name: ''
+experiment_id: '687924928482361817'
+lifecycle_stage: active
+run_id: 7f6af61ece4e468f84dfe409abbd7f67
+run_name: incongruous-auk-867
+run_uuid: 7f6af61ece4e468f84dfe409abbd7f67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737824921935
+status: 3
+tags: []
+user_id: Satish
