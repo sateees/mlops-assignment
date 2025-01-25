@@ -13,13 +13,40 @@ def test_health_check():
         response = client.get("/")
         assert response.status_code == 200
         assert response.json() == {"health_check": "OK", "model_version": 1}
-        print(f"Health Check Response: {response.json()}")  # Display response in the report
+        print(
+            f"Health Check Response: {response.json()}"
+        )  # Display response in the report
 
 
-@pytest.mark.parametrize("input_data,expected_status", [
-    ({"Gender": "Male", "Age": 35, "HasDrivingLicense": 1, "RegionID": 5.0, "Switch": 0, "PastAccident": "Yes", "AnnualPremium": 12000.0}, 200),
-    ({"Gender": "Male", "Age": "InvalidAge", "HasDrivingLicense": 1, "RegionID": 5.0, "Switch": 0, "PastAccident": "Yes", "AnnualPremium": 12000.0}, 422),
-])
+@pytest.mark.parametrize(
+    "input_data,expected_status",
+    [
+        (
+            {
+                "Gender": "Male",
+                "Age": 35,
+                "HasDrivingLicense": 1,
+                "RegionID": 5.0,
+                "Switch": 0,
+                "PastAccident": "Yes",
+                "AnnualPremium": 12000.0,
+            },
+            200,
+        ),
+        (
+            {
+                "Gender": "Male",
+                "Age": "InvalidAge",
+                "HasDrivingLicense": 1,
+                "RegionID": 5.0,
+                "Switch": 0,
+                "PastAccident": "Yes",
+                "AnnualPremium": 12000.0,
+            },
+            422,
+        ),
+    ],
+)
 def test_prediction(input_data, expected_status):
     """Test the prediction endpoint with valid and invalid input."""
     response = client.post("/predict", json=input_data)
