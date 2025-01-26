@@ -1,4 +1,4 @@
-# mlops-assignment
+# MLOps-assignment
 
 This project is developed as part of MLOps assignment1
 
